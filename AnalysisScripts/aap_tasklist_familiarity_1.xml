@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aap>
+    <tasklist>
+        <initialisation>
+            <module><name>aamod_checkparameters</name></module>
+            <module><name>aamod_evaluatesubjectnames</name></module>
+            <!--<module><name>aamod_make_subjects_short</name></module> -->
+            <module><name>aamod_study_init</name></module>
+            <module><name>aamod_newsubj_init</name></module>
+        </initialisation>
+        
+        <main>
+            <module><name>aamod_autoidentifyseries_timtrio</name></module>
+            <module><name>aamod_get_dicom_epi</name></module>
+            <!--<module><name>aamod_structuralfromnifti</name></module>
+            <module><name>aamod_epifromnifti</name></module>-->
+            <module><name>aamod_copystructural</name></module>
+            <module><name>aamod_convert_epis</name></module>
+            <module><name>aamod_tsdiffana</name></module>
+            <module><name>aamod_realign</name></module>
+            <!--module><name>aamod_slicetiming_AL</name></module>-->
+            <module><name>aamod_coreg_noss</name></module>
+            <module><name>aamod_norm_noss</name></module>
+            <!--<module><name>aamod_mask_from_EPI</name></module>-->
+            <module><name>aamod_bet</name></module>
+            <module><name>aamod_bet_epi_reslicing</name></module>
+            <module><name>aamod_mask_fromstruct</name></module>
+            <!--<module><name>aamod_compSignal</name></module>-->
+            <module><name>aamod_norm_write</name></module>
+            <module><name>aamod_smooth</name></module>
+            <!--<module><name>aamod_tsdiffana</name></module>-->
+            
+           <!-- High Pass Filter EPI using a discrete cosine model in SPM -->
+            <!--<module><name>aamod_highpassfilter_epi</name></module>-->
+
+            <!-- prepare for denoising  --> 
+            <module><name>aamod_listspikes</name></module>
+             
+            <module><name>aamod_firstlevel_scrubbingmodel_BS</name></module>
+            <!--<module><name>aamod_firstlevel_modelestimate_saveresids</name></module>-->
+           
+            <!-- Calculates mean time course for each voxel across subjects -->
+            <!--<module><name>aamod_meanepitimecourse</name></module>-->
+           
+            <!-- Calculates correlation of each subjectâs timecourse with mean -->
+            <!--<module><name>aamod_moviecorr_meantimecourse</name></module>	-->
+            
+           <!-- Statistics to find which correlations are significant across subjects -->		
+            <!--<module><name>aamod_moviecorr_summary</name></module>-->
+            <!--<module><name>aamod_roi_extract_BS</name></module>-->
+            
+            <!-- ICA -->
+            <!--<module><name>aamod_3dto4d</name></module>-->
+            <!--<module><name>aamod_tensor_ica</name></module>-->
+            <!--<module><name>aamod_GIFT</name></module>-->
+            
+        </main>
+    </tasklist>
+</aap>

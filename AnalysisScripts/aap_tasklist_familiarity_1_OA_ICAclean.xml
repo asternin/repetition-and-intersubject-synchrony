@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aap>
+    <tasklist>
+        <initialisation>
+            <module><name>aamod_checkparameters</name></module>
+            <module><name>aamod_evaluatesubjectnames</name></module>
+            <!--<module><name>aamod_make_subjects_short</name></module> -->
+            <module><name>aamod_study_init</name></module>
+            <module><name>aamod_newsubj_init</name></module>
+        </initialisation>
+        <main>
+                    <!--<module><name>aamod_listspikes</name></module>-->
+                    
+                     <!--<module><name>aamod_firstlevel_scrubbingmodel_BS</name></module>-->
+                     <!--<module><name>aamod_firstlevel_modelestimate_saveresids</name></module>-->
+                    
+                    <!-- Calculates mean time course for each voxel across subjects -->
+                    <module><name>aamod_meanepitimecourse</name></module>
+                    
+                    <!-- Calculates correlation of each subjectâs timecourse with mean -->
+                    <module><name>aamod_moviecorr_meantimecourse</name></module>
+                    
+                    <!-- Statistics to find which correlations are significant across subjects -->		
+                     <!--<module><name>aamod_moviecorr_summary</name></module>-->
+                     <!--<module><name>aamod_roi_extract_BS</name></module>-->
+
+        </main>
+    </tasklist>
+</aap>
