@@ -1,0 +1,26 @@
+The data can be found by emailing avital.sternin@uwo.ca
+They are stored locally in the folders listed at The Univeristy of Western Ontario and will be provided to anyone interested
+
+All young adults synchrony data and analysis interim steps:
+imaging3/familiarity/Session1
+imaging3/familiarity/Session2
+All older adults synchrony analysis interim steps: 
+imaging3/familiarity/OlderAdults/Session1
+
+Final steps:
+imaging3/familiarity/SynchronyStats/YA_OA_flexFact_synch_novel_wo102
+imaging3/familiarity/SynchronyStats/OA_flexFact_synch_fam
+
+
+Data were extracted from identified clusters and further analyses were conducted in R:
+grahnlab/Avital/PhD-MusicFamiliarity/SynchronyStats/Data/...
+OlderAdults_NovelLang_15clusters
+YoungAdults_NovelLang_15clusters
+YA_OA_NovelLang_15clusters
+
+Scripts:
+grahnlab/Avital/PhD-MusicFamiliarity/SynchronyStats/Scripts/...
+OA_YA_NovelLang_Stats_OAvYA.R
+OA_YA_NovelLang_Stats_OAvYA_plot.R
+OA_YA_NovelLang_Stats_OAvYA_posthoc.R
+OA_YA_NovelLang_Stats_OAvYA_pvalAdj.R
