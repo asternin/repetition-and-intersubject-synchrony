@@ -1,0 +1,35 @@
+ "2(group) x 3(song) ANOVA"
+             Df Sum Sq Mean Sq F value Pr(>F)    
+[1] group         1  0.007  0.0066   0.108  0.742    
+[2] type          2  5.342  2.6711  43.818 <2e-16 ***
+[3] group:type    2  0.041  0.0204   0.334  0.716    
+
+[4] data:  YA_OA_I$corr and YA_OA_S$corr
+
+[5] data:  YA_OA_I$corr and YA_OA_W$corr
+
+[6] data:  YA_OA_S$corr and YA_OA_W$corr
+
+[7] data:  YA_LyrOr_data$YA_song6 and YA_LyrOr_data$LyrOr
+
+[8] data:  YA_LyrOr_data$YA_song7 and YA_LyrOr_data$LyrOr
+
+[9] data:  YA_LyrOr_data$YA_song2 and YA_LyrOr_data$LyrOr
+
+[10] data:  YA_LyrOr_data$YA_song3 and YA_LyrOr_data$LyrOr
+
+[11] data:  YA_LyrOr_data$YA_song4 and YA_LyrOr_data$LyrOr
+
+[12] data:  YA_LyrOr_data$YA_song5 and YA_LyrOr_data$LyrOr
+
+[13] data:  OA_LyrOr_data$OA_song6 and OA_LyrOr_data$LyrOr
+
+[14] data:  OA_LyrOr_data$OA_song7 and OA_LyrOr_data$LyrOr
+
+[15] data:  OA_LyrOr_data$OA_song2 and OA_LyrOr_data$LyrOr
+
+[16] data:  OA_LyrOr_data$OA_song3 and OA_LyrOr_data$LyrOr
+
+[17] data:  OA_LyrOr_data$OA_song4 and OA_LyrOr_data$LyrOr
+
+[18] data:  OA_LyrOr_data$OA_song5 and OA_LyrOr_data$LyrOr

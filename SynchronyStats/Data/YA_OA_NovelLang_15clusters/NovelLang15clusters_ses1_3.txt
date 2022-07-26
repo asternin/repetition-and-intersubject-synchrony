@@ -1,0 +1,210 @@
+[1] "2(group) x 3(song) ANOVA"
+             Df Sum Sq Mean Sq F value   Pr(>F)    
+group         1  1.065  1.0650  35.331 1.14e-08 ***
+type          2  1.362  0.6810  22.593 1.30e-09 ***
+group:type    2  0.255  0.1273   4.225   0.0159 *  
+Residuals   210  6.330  0.0301                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+               eta.sq eta.sq.part
+group      0.11817821  0.14401457
+type       0.15113945  0.17706946
+group:type 0.02826156  0.03867831
+[1] "stim means"
+           i            s            w 
+-0.003751547  0.180908646  0.141499133 
+[1] "group means"
+        OA         YA 
+0.19961612 0.05342892 
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = corr ~ group * type, data = dataYAOA)
+
+$group
+            diff      lwr         upr p adj
+YA-OA -0.1461872 -0.19467 -0.09770438     0
+
+
+	Welch Two Sample t-test
+
+data:  YA_OA_I$corr and YA_OA_S$corr
+t = -6.093, df = 138.01, p-value = 1.042e-08
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.2445864 -0.1247340
+sample estimates:
+   mean of x    mean of y 
+-0.003751547  0.180908646 
+
+[1] 1.015497
+
+	Welch Two Sample t-test
+
+data:  YA_OA_I$corr and YA_OA_W$corr
+t = -4.3494, df = 141.81, p-value = 2.592e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.21126789 -0.07923347
+sample estimates:
+   mean of x    mean of y 
+-0.003751547  0.141499133 
+
+[1] 0.7249029
+
+	Welch Two Sample t-test
+
+data:  YA_OA_S$corr and YA_OA_W$corr
+t = 1.2726, df = 136.27, p-value = 0.2053
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.02183068  0.10064970
+sample estimates:
+mean of x mean of y 
+0.1809086 0.1414991 
+
+[1] 0.2120975
+
+	Pearson's product-moment correlation
+
+data:  YA_LyrOr_data$YA_song6 and YA_LyrOr_data$LyrOr
+t = 0.60421, df = 21, p-value = 0.5522
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.2975140  0.5151628
+sample estimates:
+     cor 
+0.130719 
+
+
+	Pearson's product-moment correlation
+
+data:  YA_LyrOr_data$YA_song7 and YA_LyrOr_data$LyrOr
+t = -0.78983, df = 21, p-value = 0.4385
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.5439686  0.2605960
+sample estimates:
+       cor 
+-0.1698513 
+
+
+	Pearson's product-moment correlation
+
+data:  YA_LyrOr_data$YA_song2 and YA_LyrOr_data$LyrOr
+t = 2.4599, df = 21, p-value = 0.02265
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.07546546 0.74074662
+sample estimates:
+      cor 
+0.4729554 
+
+
+	Pearson's product-moment correlation
+
+data:  YA_LyrOr_data$YA_song3 and YA_LyrOr_data$LyrOr
+t = -0.26599, df = 21, p-value = 0.7928
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.4591809  0.3629243
+sample estimates:
+        cor 
+-0.05794654 
+
+
+	Pearson's product-moment correlation
+
+data:  YA_LyrOr_data$YA_song4 and YA_LyrOr_data$LyrOr
+t = -0.60339, df = 21, p-value = 0.5527
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.5150315  0.2976769
+sample estimates:
+       cor 
+-0.1305433 
+
+
+	Pearson's product-moment correlation
+
+data:  YA_LyrOr_data$YA_song5 and YA_LyrOr_data$LyrOr
+t = -0.26041, df = 21, p-value = 0.7971
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.4582210  0.3639794
+sample estimates:
+        cor 
+-0.05673487 
+
+
+	Pearson's product-moment correlation
+
+data:  OA_LyrOr_data$OA_song6 and OA_LyrOr_data$LyrOr
+t = 0.60983, df = 11, p-value = 0.5544
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.4111084  0.6655133
+sample estimates:
+      cor 
+0.1808398 
+
+
+	Pearson's product-moment correlation
+
+data:  OA_LyrOr_data$OA_song7 and OA_LyrOr_data$LyrOr
+t = -1.1973, df = 11, p-value = 0.2563
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.7501877  0.2600909
+sample estimates:
+       cor 
+-0.3395548 
+
+
+	Pearson's product-moment correlation
+
+data:  OA_LyrOr_data$OA_song2 and OA_LyrOr_data$LyrOr
+t = 0.77376, df = 11, p-value = 0.4554
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.3701222  0.6916048
+sample estimates:
+      cor 
+0.2271955 
+
+
+	Pearson's product-moment correlation
+
+data:  OA_LyrOr_data$OA_song3 and OA_LyrOr_data$LyrOr
+t = -1.3893, df = 11, p-value = 0.1922
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.7728237  0.2091562
+sample estimates:
+       cor 
+-0.3863532 
+
+
+	Pearson's product-moment correlation
+
+data:  OA_LyrOr_data$OA_song4 and OA_LyrOr_data$LyrOr
+t = -0.25345, df = 11, p-value = 0.8046
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.6019121  0.4955949
+sample estimates:
+        cor 
+-0.07619727 
+
+
+	Pearson's product-moment correlation
+
+data:  OA_LyrOr_data$OA_song5 and OA_LyrOr_data$LyrOr
+t = 1.3988, df = 11, p-value = 0.1894
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.2066113  0.7738927
+sample estimates:
+      cor 
+0.3886137 
+
