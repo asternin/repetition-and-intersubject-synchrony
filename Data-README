@@ -13,14 +13,4 @@ imaging3/familiarity/SynchronyStats/OA_flexFact_synch_fam
 
 
 Data were extracted from identified clusters and further analyses were conducted in R:
-grahnlab/Avital/PhD-MusicFamiliarity/SynchronyStats/Data/...
-OlderAdults_NovelLang_15clusters
-YoungAdults_NovelLang_15clusters
-YA_OA_NovelLang_15clusters
-
-Scripts:
-grahnlab/Avital/PhD-MusicFamiliarity/SynchronyStats/Scripts/...
-OA_YA_NovelLang_Stats_OAvYA.R
-OA_YA_NovelLang_Stats_OAvYA_plot.R
-OA_YA_NovelLang_Stats_OAvYA_posthoc.R
-OA_YA_NovelLang_Stats_OAvYA_pvalAdj.R
+see: SynchronyStats
