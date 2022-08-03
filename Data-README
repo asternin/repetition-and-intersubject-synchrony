@@ -1,5 +1,5 @@
-The data can be found by emailing avital.sternin@uwo.ca
-They are stored locally in the folders listed at The Univeristy of Western Ontario and will be provided to anyone interested
+The fMRI data can be accessed by emailing avital.sternin@uwo.ca
+They are stored locally in the folders listed betlow at The Univeristy of Western Ontario and will be provided upon request
 
 All young adults synchrony data and analysis interim steps:
 imaging3/familiarity/Session1
@@ -14,4 +14,4 @@ imaging3/familiarity/SynchronyStats/OA_flexFact_synch_fam
 
 
 Data were extracted from identified clusters and further analyses were conducted in R:
-see: SynchronyStats
+see: SynchronyStats folder
